@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Export Localised Artboards",
+      "identifier": "export-localised-artboards.export-artboards",
+      "script": "__export-artboards.js"
+    }
+  ],
+  "menu": {
+    "title": "Export Localised Artboards",
+    "items": [
+      "export-localised-artboards.export-artboards"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "Batch exports all artboards for different languages, with text/symbol value substitution defined in LanguageData.csv file ",
+  "name": "export-localised-artboards",
+  "identifier": "export-localised-artboards",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Simon Oliver",
+  "authorEmail": "simon@handcircus.com"
+}

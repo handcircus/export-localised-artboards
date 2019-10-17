@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Export Localised Artboards",
+      "identifier": "export-localised-artboards.export-artboards",
+      "script": "./export-artboards.js"
+    }
+  ],
+  "menu": {
+    "title": "Export Localised Artboards",
+    "items": [
+      "export-localised-artboards.export-artboards"
+    ]
+  }
+}
